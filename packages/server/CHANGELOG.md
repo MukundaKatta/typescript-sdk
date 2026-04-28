@@ -1,5 +1,15 @@
 # @modelcontextprotocol/server
 
+## 2.0.0-alpha.3
+
+### Patch Changes
+
+- [#1834](https://github.com/modelcontextprotocol/typescript-sdk/pull/1834) [`42cb6b2`](https://github.com/modelcontextprotocol/typescript-sdk/commit/42cb6b2b728347d8b58a0d1940b7e63366a29ab9) Thanks [@felixweinberger](https://github.com/felixweinberger)! - Export
+  `InMemoryTransport` for in-process testing.
+
+- [#1788](https://github.com/modelcontextprotocol/typescript-sdk/pull/1788) [`df4b6cc`](https://github.com/modelcontextprotocol/typescript-sdk/commit/df4b6cc88d6f24fc857519cf506a7a039f532637) Thanks [@claygeo](https://github.com/claygeo)! - Prevent stack overflow in
+  StreamableHTTPServerTransport.close() with re-entrant guard
+
 ## 2.0.0-alpha.2
 
 ### Patch Changes
